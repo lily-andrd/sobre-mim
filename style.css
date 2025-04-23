@@ -1,10 +1,32 @@
 /* CSS externo */
-
-body {  /*Estilo global da página */
-    background-color: #ffffff;
-    line-height: 1.6;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+:root{
+    --cor-primaria:#eb79e3;
+    --cor-segundaria: #c751a5;
+    --cor-botao:#bb15b8;
+    --cor-fundo-pagina:#ffffff;
+    --cor-fundo-cartao:#d02fab;
+    --cor-primaria-texto:#000000;
+    --cor-bordaas:#1c0f28;
+    --cor-houver-menu:#eb79e3;
+    --cor-hover-card:#ffffff;
 }
+[data-theme="dark"] {
+    --cor-primaria:#caa2ed;
+    --cor-segundaria: #8c58b9;
+    --cor-botao:#522558;
+    --cor-fundo-pagina:#87109f;
+    --cor-fundo-cartao:#be5cf3;
+    --cor-primaria-texto:#0a0017;
+    --cor-bordaas:#ede1f7;
+    --cor-houver-menu:#d6cddd;
+    --cor-hover-card:#eee9f3;
+
+}
+body {
+    font-family:'Ubuntu', sans-serif;
+    background-color:var(--cor-fundo-pagina);
+    color:var(--cor-primaria-texto)
+ }
 
 h1, h2 { /*titulos*/
     text-align: center;
